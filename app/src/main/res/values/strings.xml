@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ok">OK</string>
+    <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
+    <string name="permission_internet_rationale">Access to the internet is needed for detection</string>
+    <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
+    <string name="low_storage_error">Cannot be downloaded due to low device storage</string>
+    <string name="title_activity_main">Barcode Reader</string>
+    <string name="read_barcode">Сканировать</string>
+    <string name="use_flash">Use Flash</string>
+    <string name="barcode_failure">Баркод не отсканирован</string>
+    <string name="barcode_error">"Error reading barcode: %1$s"</string>
+    <string name="incorrect">Неккоректный баркод</string>
+    <string name="success_added">Товар успешно привязан к ячейке</string>
+    <string name="success_unsnap">Товар успешно отвязат от ячейки</string>
+    <string name="bad_added">Не удалось привязать товар к ячейке</string>
+    <string name="bad_unsnapped">Не удалось отвязать товар от ячейки</string>
+    <string name="your_choice">Вы выбрали: %1$s</string>
+    <string name="cant_compare_different">Нельзя сравнивать товары разных категорий</string>
+    <string name="cant_compare_itself">Нельзя сравнивать одинаковые товары</string>
+    <string name="have_no_choice">Нечего сравнивать</string>
+    <string name="have_no_product">Не с чем сравнивать</string>
+    <string name="have_no_added">Нечего добавлять к сравнению</string>
+    <string name="snap_description_no_snap">В данный момент товар не привязан к какой либо ячейке</string>
+    <string name="snap_description_snap">В данный момент товар привязан к ячейке № %1$d</string>
+    <string name="snap_to_slot">Привязать к ячейке</string>
+    <string name="unsnap_from_slot">Отвязать от ячейки</string>
+    <item type="id" name="unsnap_from_slot"/>
+    <string name="watch_history">Просмотреть историю</string>
+    <string name="products_list">Список товаров</string>
+    <string name="scan_description">Нажмите кнопку для сканирования баркода</string>
+</resources>

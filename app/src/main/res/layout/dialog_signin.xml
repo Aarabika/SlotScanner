@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/window"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:context="com.google.android.gms.samples.vision.barcodereader.MainActivity">
+
+
+    <TextView
+        android:id="@+id/product_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="66dp"
+        android:autoLink="web"
+        android:linksClickable="true"
+        android:text="@string/your_choice"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="25sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/snap_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/product_name"
+        android:layout_marginEnd="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="50dp"
+        android:text=" В данный момент товар не привязан к какой либо ячейке."
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/attach_to_slot"
+        style="@android:style/Widget.Material.Light.Button.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button4"
+        android:layout_alignBottom="@+id/button4"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="100dp"
+        android:background="@color/fbutton_color_clouds"
+        android:text="Привязать к ячейке" />
+
+    <Button
+        android:id="@+id/button4"
+        style="@android:style/Widget.Material.Light.Button.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/product_name"
+        android:layout_below="@+id/snap_description"
+        android:layout_marginTop="314dp"
+        android:background="@color/fbutton_color_clouds"
+        android:text="Просмотреть историю" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/snap_description"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp"
+        android:fontFamily="sans-serif"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="@color/fbutton_color_alizarin"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:text="Обновите данные или привяжите товар к ячейке" />
+
+</RelativeLayout>

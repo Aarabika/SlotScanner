@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/window"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:context="com.google.android.gms.samples.vision.barcodereader.MainActivity">
+
+
+
+    <TextView
+        android:id="@+id/product_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="66dp"
+        android:text="@string/your_choice"
+        android:textColorLink="@color/fbutton_default_shadow_color"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="25sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_below="@+id/product_name"
+        android:layout_marginTop="10dp"
+        android:layout_height="1dp"
+        android:background="@color/Dark_grey"
+        android:id="@+id/view"
+        />
+
+    <TextView
+        android:id="@+id/snap_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="39dp"
+        android:text="@string/snap_description_no_snap"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/common_google_signin_btn_text_light_pressed"
+        android:textSize="30sp"
+        android:layout_below="@+id/view"
+        android:layout_alignParentStart="true"
+        />
+
+    <Button
+        android:id="@+id/snap_to_slot"
+        style="@android:style/Widget.Material.Light.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/snap_to_slot"
+        android:layout_alignStart="@+id/product_name"
+        android:layout_marginTop="400dp"
+        android:layout_marginEnd="210dp"
+        android:onClick="onClick"
+        />
+
+    <Button
+        android:id="@+id/watch_history"
+        style="@android:style/Widget.Material.Light.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/watch_history"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="400dp"
+        android:onClick="onClick"
+        />
+
+
+</RelativeLayout>
